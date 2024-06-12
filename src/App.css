@@ -1,0 +1,29 @@
+body {
+  background-color: papayawhip;
+}
+.board-row{
+  display: flex;
+  gap:0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.square{
+  min-width: 12vw;
+  min-height: 18vh;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.status{
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  color: teal;
+}
+
+.heading {
+  text-align: center;
+}
